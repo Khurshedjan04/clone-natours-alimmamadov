@@ -56,21 +56,21 @@ const ExcitingTours = () => {
                 onMouseEnter={(e) => hoverEffect(e)}
                 onMouseLeave={(e) => resetEffect(e)}
                 className={CommonStyleImg}
-                src="./src/assets/nat-1.jpg"
+                src="/assets/nat-1.jpg"
                 alt=""
               />
             <img
               onMouseEnter={(e) => hoverEffect(e)}
               onMouseLeave={(e) => resetEffect(e)}
               className={`${CommonStyleImg} -translate-y-4 z-10 md:z-0  md:right-0 md:top-[4rem]`}
-              src="./src/assets/nat-2.jpg"
+              src="/assets/nat-2.jpg"
               alt=""
             />
             <img
               onMouseEnter={(e) => hoverEffect(e)}
               onMouseLeave={(e) => resetEffect(e)}
               className= {`${CommonStyleImg} md:top-[7rem] md:translate-x-1/3`}
-              src="./src/assets/nat-3.jpg"
+              src="/assets/nat-3.jpg"
               alt=""
             />
           </div>

@@ -28,7 +28,7 @@ const Cards = () => {
 
   return (
     <div
-      className="w-full relative mx-auto border bg-[url('./src/assets/nat-4.jpg')] bg-cover bg-right-top before:content-[''] before:absolute before:w-full before:h-full before:bg-gradient-to-br from-[rgba(126,213,111,0.8)] to-[rgba(40,180,133,0.8)] before:-z-10"
+      className="w-full relative mx-auto border bg-[url('/assets/nat-4.jpg')] bg-cover bg-right-top before:content-[''] before:absolute before:w-full before:h-full before:bg-gradient-to-br from-[rgba(126,213,111,0.8)] to-[rgba(40,180,133,0.8)] before:-z-10"
       style={{clipPath: clipPath}}
     >
       <div className="max-w-custom max-[900px]:max-w-tab mx-auto my-[15rem] xl:my-[18rem] flex max-[900px]:flex-col items-center justify-center md:justify-between gap-6 max-[900px]:gap-12 max-[800px]:py-[5rem]">

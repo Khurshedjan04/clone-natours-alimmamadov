@@ -23,7 +23,7 @@ const Header = () => {
 
   return (
     <header
-      className={`w-full h-[96vh] relative mx-auto border  bg-[url('./src/assets/hero-small.jpg')] flex items-center justify-center bg-cover bg-top before:content-[''] before:absolute before:w-full before:h-full before:bg-gradient-to-br from-[rgba(126,213,111,0.8)] to-[rgba(40,180,133,0.8)] before:-z-10 "`}
+      className={`w-full h-[96vh] relative mx-auto border  bg-[url('/assets/hero-small.jpg')] flex items-center justify-center bg-cover bg-top before:content-[''] before:absolute before:w-full before:h-full before:bg-gradient-to-br from-[rgba(126,213,111,0.8)] to-[rgba(40,180,133,0.8)] before:-z-10 "`}
       style={{clipPath: clipPath}}
     >
       <a href="/">

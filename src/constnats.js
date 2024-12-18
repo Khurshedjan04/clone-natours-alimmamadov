@@ -2,11 +2,11 @@ import LanguageIcon from "@mui/icons-material/Language";
 import ExploreOutlinedIcon from "@mui/icons-material/ExploreOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
-import img1 from "./assets/nat-1.jpg";
-import img2 from "./assets/nat-6.jpg";
-import img3 from "./assets/nat-7.jpg";
-import img4 from "./assets/nat-8.jpg";
-import img5 from "./assets/nat-9.jpg";
+import img1 from "/assets/nat-1.jpg";
+import img2 from "/assets/nat-6.jpg";
+import img3 from "/assets/nat-7.jpg";
+import img4 from "/assets/nat-8.jpg";
+import img5 from "/assets/nat-9.jpg";
 
 const menuItems = [
   "ABOUT NATOUS",

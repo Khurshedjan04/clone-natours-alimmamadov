@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import ArrowRightAltOutlinedIcon from "@mui/icons-material/ArrowRightAltOutlined";
 
-const backImg = "'./src/assets/nat-10.jpg'";
+const backImg = "'/assets/nat-10.jpg'";
 const Booking = () => {
   const [clipPath, setClipPath] = useState(
     "polygon(0 0, 100% 0%, 100% 80%, 0% 100%)"
