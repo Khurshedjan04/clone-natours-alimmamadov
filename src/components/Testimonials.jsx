@@ -24,7 +24,7 @@ const Testimonials = () => {
         <div className="max-w-tab flex flex-col md:max-w-full items-center gap-16">
           <div className="md:pt-6 flex flex-col gap-12">
             {testimonials.map((item, index) => (
-              <div className="flex items-center justify-center group "       style={customShape}>
+              <div key={index} className="flex items-center justify-center group "       style={customShape}>
                 <div className="max-w-5xl bg-white shadow-md py-12 px-16 relative">
                   {/* Circular Image */}
         <div className="relative w-[9rem] h-[9rem] flex rounded-full overflow-hidden float-left mr-6">

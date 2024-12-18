@@ -1,9 +1,13 @@
+import { useEffect, useState } from "react";
 import { popularTours } from "../constnats";
 const costumShape = {
   clipPath: "polygon(0 0, 100% 0%, 100% 85%, 0% 100%)",
 };
 
 const PopularTours = () => {
+
+
+
   return (
     <div className=" bg-[#f7f7f7] text-[#777] py-[16rem]  -mb-[12rem] -my-[16rem]">
       <div className="max-w-custom md:p-5 mx-auto flex flex-col gap-16 items-center">
