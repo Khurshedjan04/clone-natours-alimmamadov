@@ -25,9 +25,9 @@ const Booking = () => {
   }, []);
 
   return (
-    <div className="w-full h-full py-[10rem] bg-gradient-to-tr from-[#7ed56f] to-[#28b485]">
+    <div className="w-full h-full py-[10rem] bg-gradient-to-tr px-16 from-[#7ed56f] to-[#28b485]">
       <div
-        className={` max-w-custom h-[30rem] min-[900px]:flex  mx-auto bg-cover  `}
+        className={` max-w-custom min-[900px]:flex  mx-auto bg-cover  `}
         style={{ backgroundImage: `url(${backImg})` }}
       >
         <div
@@ -53,7 +53,7 @@ const Booking = () => {
 
             </label>
            </div>
-           <button className="bg-[#55c57a relative text-white py-4 px-10 rounded-full hover:-translate-y-1 ease-custom-bounce duration-500 before:bg-[#55c57a] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-[-1] before:rounded-full before:hover:scale-150 before:hover:opacity-0 before:duration-500 before:ease-custom-bounce animate-slideInToTop uppercase w-fit ml-[6rem] flex items-center">
+           <button className="bg-[#55c57a relative text-white py-4 px-10 rounded-full hover:-translate-y-1 ease-custom-bounce duration-500 before:bg-[#55c57a] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-[-1] before:rounded-full before:hover:scale-150 before:hover:opacity-0 before:duration-500 mb-[5rem] before:ease-custom-bounce animate-slideInToTop uppercase w-fit ml-[6rem] flex items-center">
              <span>
              Next Steps
             </span>

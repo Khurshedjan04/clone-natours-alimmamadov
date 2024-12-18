@@ -8,7 +8,7 @@ const customShape = {
 const Testimonials = () => {
   return (
     <div className=" bg-[#f7f7f7] text-[#777] py-[12rem] relative -mt-[12rem]">
-      <div className="absolute opacity-15 overflow-hidden top-0 left-0 w-full h-full">
+      <div className="absolute opacity-15 pointer-events-none overflow-hidden top-0 left-0 w-full h-full">
         <video
           src="https://66efe0071b621d72c9a7c9c3--stellar-toffee-60c2d3.netlify.app/img/video.mp4"
           autoPlay
@@ -27,12 +27,11 @@ const Testimonials = () => {
               <div className="flex items-center justify-center group "       style={customShape}>
                 <div className="max-w-5xl bg-white shadow-md py-12 px-16 relative">
                   {/* Circular Image */}
-        <div className="relative w-[9rem] h-[9rem] rounded-full  float-left mr-6">
-                   <div className="rounded-full w-full h-full bg-center group-hover:blur-sm bg-[300px,300px] group-hover:bg-cover  bg-no-repeat absolute transition-all duration-300 ease-in-out"
-                   style={
-                    {backgroundImage: `url(${item.img})`}
-                   }
-                   ></div>
+        <div className="relative w-[9rem] h-[9rem] flex rounded-full overflow-hidden float-left mr-6">
+                   <div className="rounded-full w-full h-full relative transition-all overflow-hidden">
+                    <img src={item.img} alt="" className=" rounded-full !w-[22rem] max-w-[22rem] -translate-y-1/3 -translate-x-1/4 hover-supported:group-hover:blur-sm hover-supported:group-hover:scale-90  absolute transition-all duration-300 ease-in-out"/>
+
+                   </div>
                   <span className="absolute translate-x-7 bottom-0 translate-y-8 group-hover:-translate-y-14 transition-all duration-300 ease-in-out text-white text-xl">{item.name}</span>
         </div>
 
@@ -49,13 +48,12 @@ const Testimonials = () => {
               </div>
             ))}
           </div>
-          <a
-            href="#"
-            className="text-[#55c57a] border-b-[1px] border-[#55c57a] hover:bg-[#55c57a] hover:text-white hover:-translate-y-1 transition-all w-fit"
-          >
-            <span>Learn More</span>
-            <ArrowRightAltOutlinedIcon />
-          </a>
+          <a href="#" className="text-[#55c57a] border-b-[1px] border-[#55c57a] hover:bg-[#55c57a] hover:text-white hover:-translate-y-1 transition-all w-fit">
+              <span>
+              Learn More
+              </span>
+              <ArrowRightAltOutlinedIcon/>
+              </a>
         </div>
       </div>
     </div>

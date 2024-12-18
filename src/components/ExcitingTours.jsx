@@ -27,7 +27,7 @@ const ExcitingTours = () => {
   };
 
   const CommonStyleImg =
-    "w-1/3 relative md:w-[55%] md:absolute max-[767px]:scale-110 hover-supported:hover:outline outline-offset-[1.4rem] hover:outline-[0.9rem] outline-[#55c57a] hover:!-translate-y-2 hover:shadow-2xl transition-all duration-300 ease-in-out rounded-sm hover:z-40";
+    "w-1/3 relative md:w-[55%] md:absolute max-[767px]:scale-110 hover-supported:hover:outline outline-offset-[1.4rem] hover:outline-[0.9rem] outline-[#55c57a] hover-supported:hover:!-translate-y-2 hover-supported:hover:shadow-2xl transition-all duration-300 ease-in-out rounded-sm hover-supported:hover:z-40";
 
   
   return (
