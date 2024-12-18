@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Lato", sans-serif;
+}
+@media only screen and (min-width: 112.5em) {
+  html {
+      font-size:125%
+  }
+}
+
+@media only screen and (max-width: 75em) {
+  html {
+      font-size:100%
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  html {
+      font-size:85%
+  }
+}
+@media only screen and (max-width: 31.25em) {
+  html {
+      font-size:68%
+  }
+}
+@media only screen and (max-width: 20em) {
+  html {
+      font-size:56%
+  }
+}
+
