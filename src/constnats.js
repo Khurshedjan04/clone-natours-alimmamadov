@@ -109,7 +109,7 @@ const testimonials = [
     name: "Mary Smith",
     title: "I had the best week ever with my family",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.",
-    img: img4
+    img: img4,
   },
   {
     name: "John Doe",
@@ -118,5 +118,10 @@ const testimonials = [
     img: img5,
   },
 ];
+const footerItems = [
+  { links: ["Company", "Contact Us", "Careers", "Privacy Policy", "Terms"],
+    about: "Built by Jonas Schmedtmann for his online course Advanced CSS and Sass. Copyright © by Jonas Schmedtmann. You are 100% allowed to use this webpage for both personal and commercial use, but NOT to claim it as your own design. A credit to the original author, Jonas Schmedtmann, is of course highly appreciated!"
+  },
+];
 
-export { menuItems, aboutItems, cardsItems, popularTours, testimonials };
+export { menuItems, aboutItems, cardsItems, popularTours, testimonials, footerItems };

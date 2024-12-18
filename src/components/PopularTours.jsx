@@ -5,7 +5,7 @@ const costumShape = {
 
 const PopularTours = () => {
   return (
-    <div className=" bg-[#f7f7f7] text-[#777] py-[16rem]  -my-[12rem]">
+    <div className=" bg-[#f7f7f7] text-[#777] py-[16rem]  -mb-[12rem] -my-[16rem]">
       <div className="max-w-custom md:p-5 mx-auto flex flex-col gap-16 items-center">
         <h1 className="text-3xl md:text-4xl uppercase font-bold text-center bg-clip-text bg-gradient-to-r from-[#7ed56f] to-[#28b485] text-transparent">
           Most Popular Tours

@@ -40,7 +40,7 @@ const Booking = () => {
           <form className="flex flex-col gap-12 w-full mx-auto" action="">
            <input className="w-2/3 h-12 bg-white mx-auto" type="text" />
            <input className="w-2/3 h-12 bg-white mx-auto" type="text" />
-           <div className="flex gap-12 w-2/3 mx-auto"> 
+           <div className="flex max-[500px]:flex-col gap-12 w-2/3 mx-auto"> 
             <label className="flex gap-5 items-center" htmlFor="small">
             <input  type="checkbox" className="peer hidden" name="" id="small" />
             <div className="w-4 h-4 rounded-full outline outline-[.35rem] outline-offset-4 outline-[#55c57a] peer-checked:bg-[#55c57a]"></div> 

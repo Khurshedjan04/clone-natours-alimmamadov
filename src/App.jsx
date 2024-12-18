@@ -5,6 +5,7 @@ import Cards from "./components/Cards";
 import PopularTours from "./components/PopularTours";
 import Testimonials from "./components/Testimonials";
 import Booking from "./components/Booking";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="w-full relative mx-auto h-full border md:p-7">
@@ -17,7 +18,7 @@ function App() {
         <Testimonials/>
         <Booking/>
       </main>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }
