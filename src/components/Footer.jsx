@@ -15,7 +15,10 @@ const Footer = () => {
            ))}
           </div>
           <div className="flex-1 border-t-white border-t pt-4">
-            {footerItems[0].about}
+            {footerItems[0].about1} 
+            <a href="https://github.com/Khurshedjan04/clone-natours-alimmamadov">GitHub.</a>
+            <span>{" "}</span>
+            {footerItems[0].about2}
           </div>
         </div>
       </div>

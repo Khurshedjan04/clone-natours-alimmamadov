@@ -120,7 +120,8 @@ const testimonials = [
 ];
 const footerItems = [
   { links: ["Company", "Contact Us", "Careers", "Privacy Policy", "Terms"],
-    about: "Built by Jonas Schmedtmann for his online course Advanced CSS and Sass. Copyright © by Jonas Schmedtmann. You are 100% allowed to use this webpage for both personal and commercial use, but NOT to claim it as your own design. A credit to the original author, Jonas Schmedtmann, is of course highly appreciated!"
+    about1: "© Xurshed Alimmamadov 2024. This project was built for educational purposes and to enhance my portfolio. View the source code on ",
+    about2: "The project is not affiliated with or endorsed by Natours. A credit to the original author, Jonas Schmedtmann, is of course highly appreciated!"
   },
 ];
 
