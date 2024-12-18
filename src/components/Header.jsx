@@ -29,7 +29,7 @@ const Header = () => {
       <a href="/">
         <img
           className="h-9 absolute top-10 left-9"
-          src="./src/assets/logo-white.png"
+          src="/assets/logo-white.png"
           alt=""
         />
       </a>
@@ -42,7 +42,7 @@ const Header = () => {
             IS WHERE LIFE HAPPENS
           </h3>
         </article>
-    <button className="bg-[#ffffff] relative text-gray-500 py-4 px-10 rounded-full hover:-translate-y-1 ease-custom-bounce duration-500 before:bg-[#ffffff] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-[-1] before:rounded-full before:hover:scale-150 before:hover:opacity-0 before:duration-500 before:ease-custom-bounce animate-slideInToTop uppercase">
+    <button className="bg-[#ffffff] relative text-gray-500 py-4 px-10 rounded-full hover-supported:hover:-translate-y-1 ease-custom-bounce duration-500 before:bg-[#ffffff] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-[-1] before:rounded-full hover-supported:before:hover:scale-150 before:hover:opacity-0 before:duration-500 before:ease-custom-bounce animate-slideInToTop uppercase">
       Discover Our Tours
     </button>
       </div>

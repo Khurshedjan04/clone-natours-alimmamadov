@@ -11,22 +11,20 @@ const PopularTours = () => {
           Most Popular Tours
         </h1>
         <div className="max-w-tab flex flex-col md:max-w-full items-center gap-16">
-          <div className="md:pt-6 flex max-[1000px]:flex-col gap-12">
+          <div className="md:pt-6 flex max-[1000px]:flex-col max-[1000px]:gap-[4rem] justify-between items-center">
             {popularTours.map((item, index) => (
               <div
                 key={index}
-                className="group flex max-[1000px]:flex-1 flex-col  gap-6 bg-transparent 
-               [perspective:1200px] before:content-[''] before:absolute before:w-full before:h-full before:opacity-0"
+                className="group flex max-[1000px]:flex-1 flex-col w-[90%] md:w-[50%]  min-[1000px]:max-w-[31%] h-full [perspective:1200px]"
               >
                 {/* Front side */}
                 <div
                   className="
-                shadow-lg pb-5
-                 transition-all isolate [transform-style:_preserve-3d] duration-[1s] overflow-hidden group-hover:[transform:rotateY(180deg)]"
+                shadow-lg [backface-visibility:hidden] transition-all [transform-style:_preserve-3d] duration-700 overflow-hidden hover-supported:group-hover:[transform:rotateY(-180deg)] bg-white"
                 >
                   <div className="relative">
                     <img
-                      className="h-[14.5rem] w-full"
+                      className="h-auto w-full"
                       src={item.img}
                       style={{
                         ...costumShape,
@@ -35,7 +33,7 @@ const PopularTours = () => {
                       alt="img of nature"
                     />
                     <div
-                      className="h-[14.5rem] opacity-70 absolute w-full top-0 left-0"
+                      className="h-full opacity-70 absolute w-full top-0 left-0"
                       style={{
                         ...costumShape,
                         background: `linear-gradient(to bottom right, ${item.styleColor1}, ${item.styleColor2})`,
@@ -60,7 +58,7 @@ const PopularTours = () => {
                       {item.title2}
                     </span>
                   </h1>
-                  <div className="flex p-6 bg-white -m-16 py-[6rem] flex-col gap-3 items-center">
+                  <div className="flex py-10 px-12 flex-col gap-3 items-center">
                     {item.description.map((item, index) => (
                       <p
                         key={index}
@@ -74,7 +72,7 @@ const PopularTours = () => {
 
                 {/* Backside */}
                 <div
-                  className="absolute w-full h-full flex-col items-center justify-center transition-all [transform:rotateY(-180deg)] [transform-style:_preserve-3d] duration-[1s] group-hover:[transform:rotateY(0deg)] -z-[99]  group-hover:z-[99] flex"
+                  className="absolute w-full h-full flex-col items-center justify-center transition-all [transform:rotateY(-180deg)] [transform-style:_preserve-3d] duration-700 hover-supported:group-hover:[transform:rotateY(-360deg)] [backface-visibility:hidden] flex"
                   style={{
                     background: `linear-gradient(to bottom right, ${item.styleColor1}, ${item.styleColor2})`,
                   }}
@@ -85,14 +83,14 @@ const PopularTours = () => {
                       {item.price}
                     </h1>
                   </div>
-                  <button className="bg-[#ffffff] relative text-gray-500 py-4 px-10 rounded-full hover:-translate-y-1 ease-custom-bounce duration-500 before:bg-[#ffffff] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-[-1] before:rounded-full before:hover:scale-150 before:hover:opacity-0 before:duration-500 before:ease-custom-bounce animate-slideInToTop uppercase">
+                  <button className="bg-[#ffffff] relative text-gray-500 py-4 px-10 rounded-full hover-supported:hover:-translate-y-1 ease-custom-bounce duration-500 before:bg-[#ffffff] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-[-1] before:rounded-full before:hover:scale-150 before:hover:opacity-0 before:duration-500 before:ease-custom-bounce uppercase">
                     Book Now
                   </button>
                 </div>
               </div>
             ))}
           </div>
-          <button className="bg-[#55c57a] relative text-white py-4 px-10 rounded-full hover:-translate-y-1 ease-custom-bounce duration-500 before:bg-[#55c57a] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-[-1] before:rounded-full before:hover:scale-150 before:hover:opacity-0 before:duration-500 before:ease-custom-bounce animate-slideInToTop uppercase w-fit mt-8">
+          <button className="bg-[#55c57a] relative text-white py-4 px-10 rounded-full hover:-translate-y-1 ease-custom-bounce duration-500 before:bg-[#55c57a] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-[-1] before:rounded-full hover-supported:before:hover:scale-150 before:hover:opacity-0 before:duration-500 before:ease-custom-bounce animate-slideInToTop uppercase w-fit mt-8">
             Discover All Tours
           </button>
         </div>

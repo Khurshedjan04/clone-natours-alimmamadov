@@ -12,7 +12,7 @@ const BurgerMenu = ({onToggle}) => {
   return (
     <button
       onClick={handleToggle}
-      className="fixed z-50 top-16 right-16 w-16 h-16 bg-white rounded-full flex items-center justify-center"
+      className="fixed z-50 top-16 right-16 max-[550px]:top-8 max-[550px]:right-8 w-16 h-16 bg-white rounded-full flex items-center justify-center"
       aria-label="Toggle Menu">
         <span className='relative w-10 h-5 flex items-center justify-center'>
       <span

@@ -35,9 +35,8 @@ const Cards = () => {
         {cardsItems.map((card, index) => (
           <div
             key={index}
-            className="flex flex-col items-center justify-center text-center gap-5
-            lg:w-1/5 p-5
-            bg-[rgba(255,255,255,0.75)] hover:scale-105 hover:-translate-y-3 transition-all"
+            className="flex flex-col items-center justify-center text-center gap-5 lg:w-1/5 p-5
+            bg-[rgba(255,255,255,0.75)] hover-supported:hover:scale-105 hover-supported:hover:-translate-y-3 transition-all"
           >
             <span className="text-7xl xl:m-4">
               <card.icon fontSize="inherit"
